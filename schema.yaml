@@ -314,9 +314,16 @@ variables:
   worker_instance_shape:
     type: enum
     enum:
+    - "VM.Standard2.1"
+    - "VM.Standard2.2"
+    - "VM.Standard2.4"
     - "VM.Standard2.8"
     - "VM.Standard2.16"
     - "VM.Standard2.24"
+    - "VM.Standard.E2.1"
+    - "VM.Standard.E2.2"
+    - "VM.Standard.E2.4"
+    - "VM.Standard.E2.8"
     - "BM.Standard2.52"
     - "BM.Standard.E2.64"
     - "VM.DenseIO2.8"
@@ -337,9 +344,16 @@ variables:
   master_instance_shape:
     type: enum
     enum:
+    - "VM.Standard2.1"
+    - "VM.Standard2.2"
+    - "VM.Standard2.4"
     - "VM.Standard2.8"
     - "VM.Standard2.16"
     - "VM.Standard2.24"
+    - "VM.Standard.E2.1"
+    - "VM.Standard.E2.2"
+    - "VM.Standard.E2.4"
+    - "VM.Standard.E2.8"
     - "BM.Standard2.52"
     - "BM.Standard.E2.64" 
     - "VM.DenseIO2.8"
@@ -360,9 +374,16 @@ variables:
   utility_instance_shape:
     type: enum
     enum:
+    - "VM.Standard2.1"
+    - "VM.Standard2.2"
+    - "VM.Standard2.4"
     - "VM.Standard2.8"
     - "VM.Standard2.16"
     - "VM.Standard2.24"
+    - "VM.Standard.E2.1"
+    - "VM.Standard.E2.2"
+    - "VM.Standard.E2.4"
+    - "VM.Standard.E2.8"
     - "BM.Standard2.52"
     - "BM.Standard.E2.64"
     - "VM.DenseIO2.8"
@@ -386,7 +407,12 @@ variables:
     - "VM.Standard.E2.8"
     - "VM.Standard2.16"
     - "VM.Standard2.24"
+    - "VM.Standard.E2.1"
+    - "VM.Standard.E2.2"
+    - "VM.Standard.E2.4"
+    - "VM.Standard.E2.8"
     - "BM.Standard2.52"
+    - "BM.Standard.E2.64"
     - "VM.DenseIO2.8"
     - "VM.DenseIO2.16"
     - "VM.DenseIO2.24"
