@@ -90,12 +90,19 @@ def get_parameter_value(worker_shape, parameter):
         "VM.Standard2.24:worker_memory_mb": "327680",
         "VM.Standard2.16:worker_memory_mb": "245760",
         "VM.Standard2.8:worker_memory_mb": "122880",
+        "VM.Standard2.4:worker_memory_mb": "61440",
+        "VM.Standard2.2:worker_memory_mb": "30720",
+        "VM.Standard2.1:worker_memory_mb": "15360",
         "VM.Standard.E2.8:worker_memory_mb": "65536",
         "VM.DenseIO2.8:worker_memory_mb": "122880",
         "VM.DenseIO2.16:worker_memory_mb": "245760",
         "VM.DenseIO2.24:worker_memory_mb": "327680",
+        "VM.Standard.E2.1:worker_memory_mb": "7860",
+        "VM.Standard.E2.2:worker_memory_mb": "15360",
+        "VM.Standard.E2.4:worker_memory_mb": "30720",
+        "VM.Standard.E2.8:worker_memory_mb": "61440"
     }
-    return switcher.get(worker_shape + ":" + parameter, "NOT FOUND")
+    return switcher.get(worker_shape + ":" + parameter, "30720")
 
 def build_api_endpoints(user_name, password):
     """
