@@ -1,3 +1,7 @@
+This is a fork to allow to use <i>smaller shapes</i>. NOT FOR PRODUCTION.
+
+
+
 <p float="left">
   <img align="left" width="120" src="./images/cloudera_logo.png">
   <br/>
