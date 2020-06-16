@@ -1,4 +1,4 @@
-This is a fork to allow to use <i>smaller shapes</i>. NOT FOR PRODUCTION.
+<b>This is a fork to allow to use <i>smaller shapes</i>. NOT FOR PRODUCTION.</b>
 
 
 
